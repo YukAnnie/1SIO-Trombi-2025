@@ -17,4 +17,85 @@
     width: 100%;
 	height: 100%
     border-radius: 8px;
+#GUERIPEL{
+    background-color: brown;
+    }
+
+#GUERIPEL p {
+    color: aquamarine;
+    }
+#MAREY_VAIRELLES{
+background-color : gold; 
+}
+#DANGUIN {
+    border: none !important;
+    padding: 10px;
+    border-radius: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #e40303, /* rouge */
+        #ff8c00, /* orange */
+        #ffed00, /* jaune */
+        #008026, /* vert */
+        #004dff, /* bleu */
+        #750787  /* violet */
+    );
+}
+
+#DANGUIN img {
+    border-radius: 10px;
+}
+#MEUNIER{
+  background-color: grey;
+  border: 2px solid black;
+  border-radius: 10px; 
+}
+#MEUNIER img {
+  transition: transform 0.6s ease;
+}
+
+#MEUNIER:hover img {
+  transform: rotate(360deg);
+}
+#DAVID {
+  border-radius: 15px;
+  background: linear-gradient(to bottom, black, #aaa);
+  img{
+    width: 300px;
+    border-radius: 7px;
+  }
+}
+
+#GRUEL {
+    background: #000; 
+    width: 16rem;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    transition: background 0.6s ease, transform 0.3s ease;
+}
+
+#GRUEL img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.4s ease;
+}
+
+#GRUEL p {
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+#GRUEL:hover {
+    background: linear-gradient(135deg, #000000, #001a33, #004080, #0073e6);
+    transform: scale(1.05);
+}
+
+#GRUEL:hover img {
+    transform: scale(1.08);
 }
